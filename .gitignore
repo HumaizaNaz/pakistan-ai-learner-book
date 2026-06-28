@@ -1,0 +1,23 @@
+# Playwright MCP temp files
+.playwright-mcp/
+
+# Node modules
+website/node_modules/
+website/.next/
+
+# Build outputs
+website/out/
+website/build/
+
+# Env files
+.env
+.env.local
+website/.env
+website/.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Zip files
+*.zip
