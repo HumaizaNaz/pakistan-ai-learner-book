@@ -1,0 +1,615 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link "AI Learning Hub" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+          - generic [ref=e9]: AI Learning Hub
+        - generic [ref=e10]:
+          - img [ref=e11]
+          - link "Summer Camp" [ref=e13] [cursor=pointer]:
+            - /url: /summer-camp
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - button "اردو" [ref=e16]
+          - button "EN" [ref=e17]
+        - button "Switch to Light Mode" [ref=e18]:
+          - img [ref=e19]
+    - complementary [ref=e25]:
+      - generic [ref=e27]:
+        - img [ref=e29]
+        - generic [ref=e33]:
+          - paragraph [ref=e34]: Summer Camp
+          - paragraph [ref=e35]: 2-Month AI Course
+      - navigation [ref=e36]:
+        - paragraph [ref=e37]: Weeks
+        - link "Overview" [ref=e39] [cursor=pointer]:
+          - /url: /summer-camp
+          - img [ref=e40]
+          - generic [ref=e45]: Overview
+        - generic [ref=e46]:
+          - 'link "Week 1–2: AI ki Duniya" [ref=e47] [cursor=pointer]':
+            - /url: /summer-camp/week-1-2
+            - img [ref=e48]
+            - generic [ref=e51]: "Week 1–2: AI ki Duniya"
+            - img [ref=e52]
+          - link "Study Guide" [ref=e55] [cursor=pointer]:
+            - /url: /summer-camp/week-1-2/guide
+            - img [ref=e56]
+            - generic [ref=e58]: Study Guide
+        - 'link "Week 3–4: Prompt Mastery" [ref=e60] [cursor=pointer]':
+          - /url: /summer-camp/week-3-4
+          - img [ref=e61]
+          - generic [ref=e64]: "Week 3–4: Prompt Mastery"
+        - 'link "Week 5–6: AI Project" [ref=e66] [cursor=pointer]':
+          - /url: /summer-camp/week-5-6
+          - img [ref=e67]
+          - generic [ref=e70]: "Week 5–6: AI Project"
+        - 'link "Week 7–8: Portfolio" [ref=e72] [cursor=pointer]':
+          - /url: /summer-camp/week-7-8
+          - img [ref=e73]
+          - generic [ref=e76]: "Week 7–8: Portfolio"
+      - paragraph [ref=e78]: Ages 15–18 · No Coding · June 2026
+    - main [ref=e79]:
+      - generic [ref=e80]:
+        - generic [ref=e81]:
+          - link "Summer Camp" [ref=e82] [cursor=pointer]:
+            - /url: /summer-camp
+          - img [ref=e83]
+          - link "Week 1–2" [ref=e85] [cursor=pointer]:
+            - /url: /summer-camp/week-1-2
+          - img [ref=e86]
+          - generic [ref=e88]: Study Guide
+        - generic [ref=e89]:
+          - generic [ref=e90]:
+            - img [ref=e91]
+            - text: Self Study Guide · 2–3 Ghante
+          - heading "Week 1–2 Complete Study Guide" [level=1] [ref=e93]
+          - paragraph [ref=e94]: Yeh guide sirf tumhare liye hai. Top se shuru karo, step by step padho, aur har 'Try Karo' task zaroor karo. Koi teacher ki zaroorat nahi!
+        - generic [ref=e95]:
+          - generic [ref=e96]:
+            - img [ref=e97]
+            - paragraph [ref=e99]: Is Guide Ko Kaise Use Karein?
+          - list [ref=e100]:
+            - listitem [ref=e101]:
+              - generic [ref=e102]: "1"
+              - text: Har topic ko order mein padho — skip mat karna
+            - listitem [ref=e103]:
+              - generic [ref=e104]: "2"
+              - text: Har 'Try Karo' task abhi karo — baad ke liye mat chhorо
+            - listitem [ref=e105]:
+              - generic [ref=e106]: "3"
+              - text: Har section ke baad checklist tick karo
+            - listitem [ref=e107]:
+              - generic [ref=e108]: "4"
+              - text: Koi cheez samajh na aaye toh topic dobara padho
+        - generic [ref=e109]:
+          - generic [ref=e110]:
+            - generic [ref=e111]: "01"
+            - generic [ref=e112]:
+              - heading "🤖 AI Kya Hai?" [level=2] [ref=e113]
+              - paragraph [ref=e114]: 0/4 complete
+          - generic [ref=e115]:
+            - paragraph [ref=e116]: 📖 Pehle Ek Kahani...
+            - paragraph [ref=e117]: "Ahmed ek 16 saal ka student hai Lahore mein. Ek din uski ammi ne kaha: \"Ahmed, kal mehmaan aa rahe hain, unke liye kuch special banana hai — koi naya Pakistani dish.\" Ahmed ne apna phone uthaya aur ChatGPT mein likha: \"Mujhe ek special Pakistani dish ki recipe chahiye jo mehmaan ke liye ban sake aur jis mein chicken ho.\" 2 seconds mein ChatGPT ne 5 options de diye complete recipe ke saath. Ahmed ki ammi hairan reh gayin! Yeh jo ChatGPT ne kiya — yahi AI hai."
+          - generic [ref=e118]:
+            - paragraph [ref=e119]: 📚 AI Ki Simple Definition
+            - paragraph [ref=e120]:
+              - strong [ref=e121]: AI (Artificial Intelligence)
+              - text: "ek computer program hai jo insaanon ki tarah:"
+            - listitem [ref=e122]: Sawalon ke jawab deta hai
+            - listitem [ref=e123]: Kuch naya create kar sakta hai (writing, images, code)
+            - listitem [ref=e124]: Seekhta hai aur behtar hota jata hai
+            - paragraph [ref=e126]:
+              - strong [ref=e127]: "Asaan shabd mein:"
+              - text: AI ek bahut smart computer program hai jisne crores kitabein, websites, aur articles parhe hain — isliye woh almost kisi bhi sawaal ka jawab de sakta hai.
+          - generic [ref=e128]:
+            - paragraph [ref=e129]: 🌍 Tum Pehle Se AI Use Kar Rahe Ho!
+            - paragraph [ref=e130]: "Yaqeen nahi? Dekho:"
+            - table [ref=e134]:
+              - rowgroup [ref=e135]:
+                - row "Kya karte ho? Kaun sa AI?" [ref=e136]:
+                  - columnheader "Kya karte ho?" [ref=e137]
+                  - columnheader "Kaun sa AI?" [ref=e138]
+              - rowgroup [ref=e139]:
+                - row "YouTube pe next video suggest hoti hai YouTube ka AI" [ref=e140]:
+                  - cell "YouTube pe next video suggest hoti hai" [ref=e141]
+                  - cell "YouTube ka AI" [ref=e142]
+                - row "Google Maps shortest route dikhata hai Google ka AI" [ref=e143]:
+                  - cell "Google Maps shortest route dikhata hai" [ref=e144]
+                  - cell "Google ka AI" [ref=e145]
+                - row "WhatsApp auto-correct karta hai AI" [ref=e146]:
+                  - cell "WhatsApp auto-correct karta hai" [ref=e147]
+                  - cell "AI" [ref=e148]
+                - row "TikTok feed mein wahi aata hai jo pasand hai TikTok ka AI" [ref=e149]:
+                  - cell "TikTok feed mein wahi aata hai jo pasand hai" [ref=e150]
+                  - cell "TikTok ka AI" [ref=e151]
+                - row "Instagram pe similar photos suggest hoti hain Meta AI" [ref=e152]:
+                  - cell "Instagram pe similar photos suggest hoti hain" [ref=e153]
+                  - cell "Meta AI" [ref=e154]
+                - row "Spam emails automatically filter hoti hain Gmail ka AI" [ref=e155]:
+                  - cell "Spam emails automatically filter hoti hain" [ref=e156]
+                  - cell "Gmail ka AI" [ref=e157]
+            - paragraph [ref=e159]:
+              - strong [ref=e160]: "Matlab:"
+              - text: Tum roz AI use karte ho — bas pata nahi tha!
+          - generic [ref=e161]:
+            - paragraph [ref=e162]: 🔢 AI Ki Teen Qismein
+            - paragraph [ref=e163]:
+              - strong [ref=e164]: 1. Narrow AI
+              - text: — Sirf ek kaam karta hai
+            - listitem [ref=e165]: "Misal: Chess khelna, face unlock, spam filter"
+            - listitem [ref=e166]: "Status: Abhi exist karta hai ✅"
+            - paragraph [ref=e168]:
+              - strong [ref=e169]: 2. General AI
+              - text: — Insaan ki tarah soch sakta hai
+            - listitem [ref=e170]: "Misal: Koi bhi kaam kar sake independently"
+            - listitem [ref=e171]: "Status: Abhi nahi hai, future mein ❌"
+            - paragraph [ref=e173]:
+              - strong [ref=e174]: 3. Generative AI
+              - text: — Naya content banata hai
+            - listitem [ref=e175]: "Misal: ChatGPT (writing), DALL-E (images), Suno (music)"
+            - listitem [ref=e176]: "Status: Abhi exist karta hai ✅ — Yehi tum seekhoge!"
+          - generic [ref=e177]:
+            - generic [ref=e178]:
+              - img [ref=e179]
+              - paragraph [ref=e181]: 🛠️ Try Karo — Abhi Karo!
+            - list [ref=e182]:
+              - listitem [ref=e183]:
+                - generic [ref=e184]: "1"
+                - text: chat.openai.com kholо (ya Claude.ai — dono free hain)
+              - listitem [ref=e185]:
+                - generic [ref=e186]: "2"
+                - text: Login karo Google account se
+              - listitem [ref=e187]:
+                - generic [ref=e188]: "3"
+                - text: "Yeh sawaal likho: \"Mujhe Urdu mein batao ke AI kya hai — 5 saal ke bachay ko samjhao\""
+              - listitem [ref=e189]:
+                - generic [ref=e190]: "4"
+                - text: Jawab padho — kaisa laga? Simple hai na?
+              - listitem [ref=e191]:
+                - generic [ref=e192]: "5"
+                - text: "Ab dobara poocho: \"Ab thoda aur detail mein batao, 16 saal ke student ke liye\""
+              - listitem [ref=e193]:
+                - generic [ref=e194]: "6"
+                - text: Dekho kaise jawab change hua — yahi Prompt Engineering hai!
+          - generic [ref=e195]:
+            - generic [ref=e196]:
+              - img [ref=e197]
+              - paragraph [ref=e201]: 0/4 ✓
+            - generic [ref=e202]:
+              - button "Mujhe pata hai AI kya hai — simple definition yaad hai" [ref=e203]:
+                - img [ref=e204]
+                - generic [ref=e206]: Mujhe pata hai AI kya hai — simple definition yaad hai
+              - button "Main already AI use kar raha/rahi tha — examples yaad hain" [ref=e207]:
+                - img [ref=e208]
+                - generic [ref=e210]: Main already AI use kar raha/rahi tha — examples yaad hain
+              - button "Generative AI kya hai — ChatGPT jaisi cheez" [ref=e211]:
+                - img [ref=e212]
+                - generic [ref=e214]: Generative AI kya hai — ChatGPT jaisi cheez
+              - button "ChatGPT ya Claude pe pehla sawaal pooch liya" [ref=e215]:
+                - img [ref=e216]
+                - generic [ref=e218]: ChatGPT ya Claude pe pehla sawaal pooch liya
+        - generic [ref=e220]:
+          - generic [ref=e221]:
+            - generic [ref=e222]: "02"
+            - generic [ref=e223]:
+              - heading "⚖️ ChatGPT, Claude, Gemini — Fark Kya Hai?" [level=2] [ref=e224]
+              - paragraph [ref=e225]: 0/4 complete
+          - generic [ref=e226]:
+            - paragraph [ref=e227]: 📖 Teen Teachers Ki Kahani
+            - paragraph [ref=e228]: "Socho tumhare school mein teen alag alag teachers hain jo sab Urdu padhate hain: - **Ustad Arif** — bahut detailed explain karta hai, essays likhwata hai, coding bhi janta hai - **Ustad Bilal** — bahut careful hai, galat nahi bolta, long documents analyse karta hai - **Ustad Careem** — real-time news janta hai, Google se connected hai, research mein best hai Tum kaunsa choose karoge? Depends karta hai — kya chahiye! Yehi ChatGPT, Claude, aur Gemini ka farak hai."
+          - generic [ref=e229]:
+            - paragraph [ref=e230]: 📊 Detailed Comparison
+            - table [ref=e232]:
+              - rowgroup [ref=e233]:
+                - row "Feature ChatGPT Claude Gemini" [ref=e234]:
+                  - columnheader "Feature" [ref=e235]
+                  - columnheader "ChatGPT" [ref=e236]
+                  - columnheader "Claude" [ref=e237]
+                  - columnheader "Gemini" [ref=e238]
+              - rowgroup [ref=e239]:
+                - row "Company OpenAI Anthropic Google" [ref=e240]:
+                  - cell "Company" [ref=e241]:
+                    - strong [ref=e242]: Company
+                  - cell "OpenAI" [ref=e243]
+                  - cell "Anthropic" [ref=e244]
+                  - cell "Google" [ref=e245]
+                - row "Free Version ✅ Haan ✅ Haan ✅ Haan" [ref=e246]:
+                  - cell "Free Version" [ref=e247]:
+                    - strong [ref=e248]: Free Version
+                  - cell "✅ Haan" [ref=e249]
+                  - cell "✅ Haan" [ref=e250]
+                  - cell "✅ Haan" [ref=e251]
+                - row "Best for Writing, coding, general Long docs, careful answers Real-time info, research" [ref=e252]:
+                  - cell "Best for" [ref=e253]:
+                    - strong [ref=e254]: Best for
+                  - cell "Writing, coding, general" [ref=e255]
+                  - cell "Long docs, careful answers" [ref=e256]
+                  - cell "Real-time info, research" [ref=e257]
+                - row "Pakistani Urdu Theek Theek Theek" [ref=e258]:
+                  - cell "Pakistani Urdu" [ref=e259]:
+                    - strong [ref=e260]: Pakistani Urdu
+                  - cell "Theek" [ref=e261]
+                  - cell "Theek" [ref=e262]
+                  - cell "Theek" [ref=e263]
+                - row "Image banana DALL-E (paid) ❌ ✅ Imagen" [ref=e264]:
+                  - cell "Image banana" [ref=e265]:
+                    - strong [ref=e266]: Image banana
+                  - cell "DALL-E (paid)" [ref=e267]
+                  - cell "❌" [ref=e268]
+                  - cell "✅ Imagen" [ref=e269]
+                - row "Internet access ✅ (limited) ❌ (mostly) ✅ Haan" [ref=e270]:
+                  - cell "Internet access" [ref=e271]:
+                    - strong [ref=e272]: Internet access
+                  - cell "✅ (limited)" [ref=e273]
+                  - cell "❌ (mostly)" [ref=e274]
+                  - cell "✅ Haan" [ref=e275]
+          - generic [ref=e276]:
+            - paragraph [ref=e277]: 🎯 Kab Kaunsa Use Karein?
+            - paragraph [ref=e278]: "ChatGPT use karo jab:"
+            - listitem [ref=e279]: CV ya cover letter likhna ho
+            - listitem [ref=e280]: Code likhna ho
+            - listitem [ref=e281]: Brainstorming karni ho
+            - listitem [ref=e282]: General sawalon ke jawab chahiye hon
+            - paragraph [ref=e284]: "Claude use karo jab:"
+            - listitem [ref=e285]: Koi lamba document read/summarize karna ho
+            - listitem [ref=e286]: Careful, thoughtful answer chahiye
+            - listitem [ref=e287]: Kisi cheez ko detail mein explain karwana ho
+            - paragraph [ref=e289]: "Gemini use karo jab:"
+            - listitem [ref=e290]: Latest news ya current events chahiye hon
+            - listitem [ref=e291]: Google Drive ya Gmail ke saath kaam karna ho
+            - listitem [ref=e292]: Research karni ho
+            - paragraph [ref=e294]:
+              - strong [ref=e295]: "💡 Pro Tip:"
+              - text: Teeno free hain! Ek hi sawaal teeno se poochho aur compare karo — jo best answer de, woh use karo.
+          - generic [ref=e296]:
+            - generic [ref=e297]:
+              - img [ref=e298]
+              - paragraph [ref=e300]: 🛠️ Try Karo — Tino Compare Karo!
+            - list [ref=e301]:
+              - listitem [ref=e302]:
+                - generic [ref=e303]: "1"
+                - text: "Teeno websites kholо: chat.openai.com, claude.ai, gemini.google.com"
+              - listitem [ref=e304]:
+                - generic [ref=e305]: "2"
+                - text: "Teeno mein yahi prompt dalo: \"Mujhe Pakistan ke top 5 IT companies ke baare mein batao\""
+              - listitem [ref=e306]:
+                - generic [ref=e307]: "3"
+                - text: Teeno ke jawab compare karo — length, accuracy, style
+              - listitem [ref=e308]:
+                - generic [ref=e309]: "4"
+                - text: Apna favorite note karo — kisi copybook mein likh lo
+          - generic [ref=e310]:
+            - generic [ref=e311]:
+              - img [ref=e312]
+              - paragraph [ref=e316]: 0/4 ✓
+            - generic [ref=e317]:
+              - button "ChatGPT, Claude, Gemini — teeno ka account bana liya" [ref=e318]:
+                - img [ref=e319]
+                - generic [ref=e321]: ChatGPT, Claude, Gemini — teeno ka account bana liya
+              - button "Sama prompt teeno pe try kiya" [ref=e322]:
+                - img [ref=e323]
+                - generic [ref=e325]: Sama prompt teeno pe try kiya
+              - button "Mujhe pata hai kab kaunsa use karna hai" [ref=e326]:
+                - img [ref=e327]
+                - generic [ref=e329]: Mujhe pata hai kab kaunsa use karna hai
+              - button "Apna favorite AI tool choose kar liya" [ref=e330]:
+                - img [ref=e331]
+                - generic [ref=e333]: Apna favorite AI tool choose kar liya
+        - generic [ref=e335]:
+          - generic [ref=e336]:
+            - generic [ref=e337]: "03"
+            - generic [ref=e338]:
+              - heading "🔮 AI ka Future — Pakistan Mein Kya Hoga?" [level=2] [ref=e339]
+              - paragraph [ref=e340]: 0/4 complete
+          - generic [ref=e341]:
+            - paragraph [ref=e342]: 📖 Waqt Ki Ek Baat...
+            - paragraph [ref=e343]: 2010 mein agar koi kehta "main YouTuber banunga" toh log haste. 2015 mein "Social Media Manager" koi job nahi thi. 2020 mein "Crypto Trader" naya concept tha. 2025 mein **AI Engineer, Prompt Engineer, AI Content Creator** — yeh Pakistan mein nayi jobs hain. 2027 mein aur nai jobs hongi jo abhi exist bhi nahi karti. Tum aaj jo seekh rahe ho — yehi tumhara future banana hai.
+          - generic [ref=e344]:
+            - paragraph [ref=e345]: 💼 AI Se Jo Jobs Aayengi Pakistan Mein
+            - paragraph [ref=e346]: 1. Prompt Engineer
+            - listitem [ref=e347]: "Kya karta hai: AI ko sahi instructions deta hai taake behtar results aayein"
+            - listitem [ref=e348]: "Salary: $500–2000/month (remote!)"
+            - listitem [ref=e349]: "Seekhna: Prompt Engineering — yehi is course mein hai!"
+            - paragraph [ref=e351]: 2. AI Content Creator
+            - listitem [ref=e352]: "Kya karta hai: AI tools se videos, blogs, social media content banata hai"
+            - listitem [ref=e353]: "Salary: Freelance $200–1000/project"
+            - listitem [ref=e354]: "Seekhna: ChatGPT + Canva AI + CapCut AI"
+            - paragraph [ref=e356]: 3. No-Code AI Developer
+            - listitem [ref=e357]: "Kya karta hai: Bina coding ke AI apps banata hai (Bubble.io, Bolt.new)"
+            - listitem [ref=e358]: "Salary: $300–1500/project"
+            - listitem [ref=e359]: "Seekhna: Week 7–8 mein!"
+            - paragraph [ref=e361]: 4. AI Trainer/Evaluator
+            - listitem [ref=e362]: "Kya karta hai: AI ke jawab check karta hai, galatiyon ko theek karta hai"
+            - listitem [ref=e363]: "Salary: Part-time $10–20/hour"
+            - listitem [ref=e364]: "Seekhna: Prompt Engineering + quality sense"
+          - generic [ref=e365]:
+            - paragraph [ref=e366]: 🇵🇰 Pakistan Mein AI Ka Scene
+            - paragraph [ref=e367]:
+              - strong [ref=e368]: "Acha news:"
+              - text: Pakistan mein AI education abhi bahut kam hai. Jo log abhi seekh rahe hain woh aage hain.
+            - paragraph [ref=e370]: "Current situation:"
+            - listitem [ref=e371]: Karachi, Lahore, Islamabad mein AI startups ban rahe hain
+            - listitem [ref=e372]: Fiverr, Upwork pe Pakistani freelancers AI tools se kaam le rahe hain
+            - listitem [ref=e373]: NUST, LUMS, IBA mein AI courses start hue hain
+            - listitem [ref=e374]: Government "Digital Pakistan" initiative — AI ko priority
+            - paragraph [ref=e376]:
+              - strong [ref=e377]: "Tumhara opportunity:"
+              - text: Abhi jo seekh rahe ho — 2 saal mein ye skills premium hogi Pakistan mein.
+          - generic [ref=e378]:
+            - generic [ref=e379]:
+              - img [ref=e380]
+              - paragraph [ref=e382]: 🛠️ Try Karo — Apna AI Future Socho!
+            - list [ref=e383]:
+              - listitem [ref=e384]:
+                - generic [ref=e385]: "1"
+                - text: "ChatGPT mein yeh prompt dalo: \"Main ek 16 saal ka Pakistani student hoon jo AI seekh raha hoon. Mujhe 5 realistic AI career options batao jo 2027 tak Pakistan mein available hogi, salary ke saath\""
+              - listitem [ref=e386]:
+                - generic [ref=e387]: "2"
+                - text: Jawab padho — kaunsi job most interesting lagi?
+              - listitem [ref=e388]:
+                - generic [ref=e389]: "3"
+                - text: "LinkedIn pe search karo: \"AI jobs Pakistan\" — dekho kya openings hain"
+              - listitem [ref=e390]:
+                - generic [ref=e391]: "4"
+                - text: "Apni copybook mein likho: \"Main [job naam] banana chahta/chahti hoon kyunki [reason]\""
+          - generic [ref=e392]:
+            - generic [ref=e393]:
+              - img [ref=e394]
+              - paragraph [ref=e398]: 0/4 ✓
+            - generic [ref=e399]:
+              - button "Mujhe pata hai AI se kaunsi jobs aayengi" [ref=e400]:
+                - img [ref=e401]
+                - generic [ref=e403]: Mujhe pata hai AI se kaunsi jobs aayengi
+              - button "Pakistan mein AI ka scene samajh aa gaya" [ref=e404]:
+                - img [ref=e405]
+                - generic [ref=e407]: Pakistan mein AI ka scene samajh aa gaya
+              - button "Apna preferred AI career think kar liya" [ref=e408]:
+                - img [ref=e409]
+                - generic [ref=e411]: Apna preferred AI career think kar liya
+              - button "LinkedIn pe AI jobs search kar li" [ref=e412]:
+                - img [ref=e413]
+                - generic [ref=e415]: LinkedIn pe AI jobs search kar li
+        - generic [ref=e417]:
+          - generic [ref=e418]:
+            - generic [ref=e419]: "04"
+            - generic [ref=e420]:
+              - heading "✍️ Prompt Engineering — AI Se Sahi Kaam Kaise Lo" [level=2] [ref=e421]
+              - paragraph [ref=e422]: 0/4 complete
+          - generic [ref=e423]:
+            - paragraph [ref=e424]: 📖 Naya Kaam Wali Kahani
+            - paragraph [ref=e425]: Socho tumne ek naya kaam rakhा hai — woh bahut capable hai lekin tumhe clearly batana hoga kya karna hai. **Tum:** "Kuch likho." **Kaam wala:** *confused* — Kya? Kiske liye? Kitna? Kaisa? **Tum:** "Ek formal email likho Ahmed sahab ko, main unhe interview ke liye invite kar raha hoon Monday 10 baje, Company HR Manager ki taraf se." **Kaam wala:** *perfecto email* ✅ AI bilkul isi tarah kaam karta hai. Jitna clear instruction, utna behtar result.
+          - generic [ref=e426]:
+            - paragraph [ref=e427]: ❌ Bure Prompts vs ✅ Aache Prompts
+            - table [ref=e429]:
+              - rowgroup [ref=e430]:
+                - row "Bura Prompt Acha Prompt" [ref=e431]:
+                  - columnheader "Bura Prompt" [ref=e432]
+                  - columnheader "Acha Prompt" [ref=e433]
+              - rowgroup [ref=e434]:
+                - row "\"Essay likho\" \"Climate change pe 500 words ka essay likho, 16 saal ke student ke liye, simple Urdu mein, 3 paragraphs mein\"" [ref=e435]:
+                  - cell "\"Essay likho\"" [ref=e436]
+                  - cell "\"Climate change pe 500 words ka essay likho, 16 saal ke student ke liye, simple Urdu mein, 3 paragraphs mein\"" [ref=e437]
+                - 'row "\"CV banao\" \"Mera professional CV banao. Naam: Sara Ahmed, 17 saal, Karachi. Skills: AI tools, Canva, basic coding. Education: Matric 2024. Goal: IT field\"" [ref=e438]':
+                  - cell "\"CV banao\"" [ref=e439]
+                  - 'cell "\"Mera professional CV banao. Naam: Sara Ahmed, 17 saal, Karachi. Skills: AI tools, Canva, basic coding. Education: Matric 2024. Goal: IT field\"" [ref=e440]'
+                - row "\"Translate karo\" \"Yeh paragraph formal Urdu mein translate karo, business letter style mein\"" [ref=e441]:
+                  - cell "\"Translate karo\"" [ref=e442]
+                  - cell "\"Yeh paragraph formal Urdu mein translate karo, business letter style mein\"" [ref=e443]
+                - row "\"Idea do\" \"Mujhe 10 unique YouTube channel ideas do jo Pakistani teenagers ke liye hon aur AI tools use karen\"" [ref=e444]:
+                  - cell "\"Idea do\"" [ref=e445]
+                  - cell "\"Mujhe 10 unique YouTube channel ideas do jo Pakistani teenagers ke liye hon aur AI tools use karen\"" [ref=e446]
+          - generic [ref=e447]:
+            - paragraph [ref=e448]: 🔑 RTCF Formula — Perfect Prompt Ka Secret
+            - paragraph [ref=e449]: "Har acha prompt mein 4 cheezein hoti hain:"
+            - paragraph [ref=e451]:
+              - strong [ref=e452]: R — ROLE
+              - text: (Tu kaun hai?)
+            - paragraph [ref=e453]: "> \"Tu ek professional career counselor hai jo Pakistani students ko guide karta hai...\""
+            - paragraph [ref=e455]:
+              - strong [ref=e456]: T — TASK
+              - text: (Kya karna hai?)
+            - paragraph [ref=e457]: "> \"...mujhe ek study plan banao...\""
+            - paragraph [ref=e459]:
+              - strong [ref=e460]: C — CONTEXT
+              - text: (Background kya hai?)
+            - paragraph [ref=e461]: "> \"...Main 17 saal ka hoon, ICS kar raha hoon, computer science mein career banana chahta hoon...\""
+            - paragraph [ref=e463]:
+              - strong [ref=e464]: F — FORMAT
+              - text: (Kaise chahiye?)
+            - paragraph [ref=e465]: "> \"...bullet points mein, 1 hafte ka plan, easy Urdu mein\""
+            - paragraph [ref=e467]: "Complete Prompt:"
+            - paragraph [ref=e468]: "> \"Tu ek professional career counselor hai jo Pakistani students ko guide karta hai. Mujhe ek study plan banao. Main 17 saal ka hoon, ICS kar raha hoon, computer science mein career banana chahta hoon. Bullet points mein, 1 hafte ka plan, easy Urdu mein.\""
+          - generic [ref=e469]:
+            - paragraph [ref=e470]: 💡 Advanced Tips — Pro Bano
+            - paragraph [ref=e471]: 1. Iterate karo (Refine karte raho)
+            - paragraph [ref=e472]: "Pehla jawab perfect nahi hoga. Phir kaho:"
+            - listitem [ref=e473]: "\"Thoda aur detail mein batao\""
+            - listitem [ref=e474]: "\"Simple karo — 10 saal ke bachay ko samjhao\""
+            - listitem [ref=e475]: "\"Is part ko change karo: [part]\""
+            - paragraph [ref=e477]: 2. Examples do
+            - paragraph [ref=e478]: "> \"Mujhe ek LinkedIn bio likhna hai. Yeh ek example hai jaise main chahta hoon: [example paste karo]\""
+            - paragraph [ref=e480]: 3. Role play karo
+            - paragraph [ref=e481]: "> \"Tu mera mentor hai. Main tumse career advice lete hoon.\""
+            - paragraph [ref=e483]: 4. Length control karo
+            - paragraph [ref=e484]: "> \"100 words se zyada mat likhna\" ya \"Minimum 500 words likhna\""
+          - generic [ref=e485]:
+            - generic [ref=e486]:
+              - img [ref=e487]
+              - paragraph [ref=e489]: 🛠️ Try Karo — RTCF Formula Practice!
+            - list [ref=e490]:
+              - listitem [ref=e491]:
+                - generic [ref=e492]: "1"
+                - text: Copybook mein RTCF formula likho aur apna khud ka prompt banao
+              - listitem [ref=e493]:
+                - generic [ref=e494]: "2"
+                - text: "Apne baare mein ek CV prompt banao RTCF se: Role (career expert), Task (CV banana), Context (tumhari details), Format (professional, 1 page)"
+              - listitem [ref=e495]:
+                - generic [ref=e496]: "3"
+                - text: ChatGPT ya Claude mein submit karo
+              - listitem [ref=e497]:
+                - generic [ref=e498]: "4"
+                - text: Result dekho — kya acha laga? Kya change karna chahoge?
+              - listitem [ref=e499]:
+                - generic [ref=e500]: "5"
+                - text: Ek baar refine karo — kuch add karo ya change karo aur dobara bhejo
+              - listitem [ref=e501]:
+                - generic [ref=e502]: "6"
+                - text: Final version Google Docs mein save karo
+          - generic [ref=e503]:
+            - generic [ref=e504]:
+              - img [ref=e505]
+              - paragraph [ref=e509]: 0/4 ✓
+            - generic [ref=e510]:
+              - button "RTCF formula yaad kar liya" [ref=e511]:
+                - img [ref=e512]
+                - generic [ref=e514]: RTCF formula yaad kar liya
+              - button "Apna CV AI se banwa liya" [ref=e515]:
+                - img [ref=e516]
+                - generic [ref=e518]: Apna CV AI se banwa liya
+              - button "Ek prompt ko 2–3 baar refine kiya" [ref=e519]:
+                - img [ref=e520]
+                - generic [ref=e522]: Ek prompt ko 2–3 baar refine kiya
+              - button "Bure aur aache prompt ka farak samajh aaya" [ref=e523]:
+                - img [ref=e524]
+                - generic [ref=e526]: Bure aur aache prompt ka farak samajh aaya
+        - generic [ref=e528]:
+          - generic [ref=e529]:
+            - generic [ref=e530]: "05"
+            - generic [ref=e531]:
+              - heading "🪪 LinkedIn + GitHub — Tumhari Professional Identity" [level=2] [ref=e532]
+              - paragraph [ref=e533]: 0/5 complete
+          - generic [ref=e534]:
+            - paragraph [ref=e535]: 📖 Interview Ka Scene
+            - paragraph [ref=e536]: "Sara ka interview hai ek tech company mein. HR manager kehta hai: \"Apna kaam dikhao.\" Sara #1 (bina profiles ke): \"Main CV layi hoon...\" *awkward silence* Sara #2 (LinkedIn + GitHub ke saath): \"Zaroor! Yeh mera LinkedIn hai, yahan mere projects hain, aur GitHub pe mera code hai.\" *HR impressed!* 2025 mein LinkedIn + GitHub tumhari **digital identity** hai. Degree se pehle yeh dekhte hain."
+          - generic [ref=e537]:
+            - paragraph [ref=e538]: 🔗 LinkedIn — Step by Step Setup
+            - paragraph [ref=e539]: "Step 1: Account Banao"
+            - paragraph [ref=e540]: 1. linkedin.com kholо
+            - paragraph [ref=e541]: 2. "Join now" pe click karo
+            - paragraph [ref=e542]: 3. Google account se sign up karo (easy!)
+            - paragraph [ref=e543]: 4. Apna real naam daalo
+            - paragraph [ref=e545]: "Step 2: Profile Complete Karo"
+            - paragraph [ref=e546]: 1. Professional photo upload karo (clean background, smiling)
+            - paragraph [ref=e547]:
+              - text: "2."
+              - strong [ref=e548]: "Headline likhо:"
+              - text: "\"AI Learner"
+            - paragraph [ref=e549]:
+              - text: "3."
+              - strong [ref=e550]: "Location:"
+              - text: Karachi, Pakistan (ya apna sheher)
+            - paragraph [ref=e552]: "Step 3: About Section — AI Se Likhwao"
+            - paragraph [ref=e553]: "ChatGPT mein yeh prompt dalo:"
+            - paragraph [ref=e554]: "> \"Mera naam [naam] hai, main [saal] saal ka Pakistani student hoon [sheher] mein. Main AI aur technology seekh raha hoon. Mujhe ek engaging LinkedIn About section likho — 3 short paragraphs, professional lekin friendly tone, English mein.\""
+            - paragraph [ref=e556]: "Step 4: Skills Add Karo"
+            - listitem [ref=e557]: ChatGPT, Claude AI, Prompt Engineering, Canva, Microsoft Office
+            - paragraph [ref=e559]: "Step 5: Pehli Post Karo!"
+            - paragraph [ref=e560]: "> \"Aaj maine AI learning start ki! Yeh Summer Camp mein pehla din hai. #AI #Learning #Pakistan #StudentLife\""
+          - generic [ref=e561]:
+            - paragraph [ref=e562]: 🐙 GitHub — Step by Step Setup
+            - paragraph [ref=e563]: GitHub kya hai?
+            - paragraph [ref=e564]:
+              - text: GitHub woh jagah hai jahan developers apna code share karte hain. Yeh tumhara
+              - strong [ref=e565]: project portfolio
+              - text: hai — employers dekh sakte hain tumne kya banaya.
+            - paragraph [ref=e567]: "Step 1: Account Banao"
+            - paragraph [ref=e568]: 1. github.com kholо
+            - paragraph [ref=e569]: 2. "Sign up" pe click karo
+            - paragraph [ref=e570]: "3. Username choose karo: apna real naam use karo (jaise sara-ahmed ya saraahmed)"
+            - paragraph [ref=e571]: 4. Email aur password set karo
+            - paragraph [ref=e573]: "Step 2: Profile Complete Karo"
+            - paragraph [ref=e574]: 1. Profile photo add karo (same jo LinkedIn pe hai)
+            - paragraph [ref=e575]: "2. Bio likhо: \"AI Learner"
+            - paragraph [ref=e576]: "3. Location: Pakistan add karo"
+            - paragraph [ref=e578]: "Step 3: README Banao — AI Se"
+            - paragraph [ref=e579]: "ChatGPT mein:"
+            - paragraph [ref=e580]: "> \"Mere liye GitHub profile README likho. Naam [naam], Pakistani student, AI seekh raha hoon, interests: technology, coding, AI tools. Fun fact bhi add karo. GitHub markdown format mein.\""
+            - paragraph [ref=e582]: "Step 4: LinkedIn Link Add Karo"
+            - paragraph [ref=e583]: Profile mein LinkedIn URL add karo — dono connect ho jayein
+          - generic [ref=e584]:
+            - generic [ref=e585]:
+              - img [ref=e586]
+              - paragraph [ref=e588]: 🛠️ Try Karo — Dono Profiles Banao!
+            - list [ref=e589]:
+              - listitem [ref=e590]:
+                - generic [ref=e591]: "1"
+                - text: LinkedIn account banao — real naam aur photo ke saath
+              - listitem [ref=e592]:
+                - generic [ref=e593]: "2"
+                - text: ChatGPT se apna LinkedIn About section likhwao (RTCF formula use karo!)
+              - listitem [ref=e594]:
+                - generic [ref=e595]: "3"
+                - text: LinkedIn pe pehli post publish karo — "Maine aaj AI learning start ki!"
+              - listitem [ref=e596]:
+                - generic [ref=e597]: "4"
+                - text: GitHub account banao — professional username choose karo
+              - listitem [ref=e598]:
+                - generic [ref=e599]: "5"
+                - text: ChatGPT se README likhwao aur upload karo
+              - listitem [ref=e600]:
+                - generic [ref=e601]: "6"
+                - text: LinkedIn par GitHub profile ka link add karo
+              - listitem [ref=e602]:
+                - generic [ref=e603]: "7"
+                - text: Dono profile links apni copybook mein note karo
+          - generic [ref=e604]:
+            - generic [ref=e605]:
+              - img [ref=e606]
+              - paragraph [ref=e610]: 0/5 ✓
+            - generic [ref=e611]:
+              - button "LinkedIn profile live hai — photo aur headline ke saath" [ref=e612]:
+                - img [ref=e613]
+                - generic [ref=e615]: LinkedIn profile live hai — photo aur headline ke saath
+              - button "LinkedIn pe pehli post publish ki" [ref=e616]:
+                - img [ref=e617]
+                - generic [ref=e619]: LinkedIn pe pehli post publish ki
+              - button "GitHub account bana liya" [ref=e620]:
+                - img [ref=e621]
+                - generic [ref=e623]: GitHub account bana liya
+              - button "GitHub README AI se likhwaya aur upload kiya" [ref=e624]:
+                - img [ref=e625]
+                - generic [ref=e627]: GitHub README AI se likhwaya aur upload kiya
+              - button "Dono profiles aapas mein linked hain" [ref=e628]:
+                - img [ref=e629]
+                - generic [ref=e631]: Dono profiles aapas mein linked hain
+        - generic [ref=e633]:
+          - generic [ref=e634]:
+            - heading "🎉 Week 1–2 Complete Checklist" [level=3] [ref=e635]
+            - generic [ref=e636]: 0/8
+          - paragraph [ref=e637]: Agar yeh sab tick hai toh tum Week 1–2 complete kar chuke ho!
+          - generic [ref=e639]:
+            - button "AI kya hai — mujhe pata hai aur kisi ko bhi samjha sakta/sakti hoon" [ref=e640]:
+              - img [ref=e641]
+              - generic [ref=e643]: AI kya hai — mujhe pata hai aur kisi ko bhi samjha sakta/sakti hoon
+            - button "ChatGPT, Claude, Gemini — teeno try kiye aur pata hai kab kaunsa use karna hai" [ref=e644]:
+              - img [ref=e645]
+              - generic [ref=e647]: ChatGPT, Claude, Gemini — teeno try kiye aur pata hai kab kaunsa use karna hai
+            - button "AI future ke baare mein socha — apna career direction clear hai" [ref=e648]:
+              - img [ref=e649]
+              - generic [ref=e651]: AI future ke baare mein socha — apna career direction clear hai
+            - button "RTCF formula yaad hai — AI se professional prompts likh sakta/sakti hoon" [ref=e652]:
+              - img [ref=e653]
+              - generic [ref=e655]: RTCF formula yaad hai — AI se professional prompts likh sakta/sakti hoon
+            - button "Apna CV AI se banaya" [ref=e656]:
+              - img [ref=e657]
+              - generic [ref=e659]: Apna CV AI se banaya
+            - button "LinkedIn profile live hai" [ref=e660]:
+              - img [ref=e661]
+              - generic [ref=e663]: LinkedIn profile live hai
+            - button "GitHub account bana liya" [ref=e664]:
+              - img [ref=e665]
+              - generic [ref=e667]: GitHub account bana liya
+            - button "Pehli LinkedIn post publish ki" [ref=e668]:
+              - img [ref=e669]
+              - generic [ref=e671]: Pehli LinkedIn post publish ki
+        - generic [ref=e672]:
+          - generic [ref=e673]:
+            - paragraph [ref=e674]: "⏭️ Next: Week 3–4"
+            - paragraph [ref=e675]: Prompt Mastery + Content Creation — Canva AI, CapCut AI, aur advanced prompting seekhenge!
+          - link "Week 3–4 Dekho →" [ref=e676] [cursor=pointer]:
+            - /url: /summer-camp/week-3-4
+  - button "Open Next.js Dev Tools" [ref=e682] [cursor=pointer]:
+    - img [ref=e683]

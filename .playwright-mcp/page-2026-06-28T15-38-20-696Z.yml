@@ -1,0 +1,153 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link "AI Learning Hub" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+          - text: AI Learning Hub
+        - generic [ref=e9]:
+          - img [ref=e10]
+          - link "Zara aur NOVA" [ref=e12] [cursor=pointer]:
+            - /url: /zara-nova
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - button "اردو" [ref=e15]
+          - button "EN" [ref=e16]
+        - button "Switch to Light Mode" [ref=e17]:
+          - img [ref=e18]
+    - complementary [ref=e24]:
+      - generic [ref=e26]:
+        - img [ref=e28]
+        - generic [ref=e30]:
+          - paragraph [ref=e31]: Zara aur NOVA
+          - paragraph [ref=e32]: ki AI Duniya
+      - navigation [ref=e33]:
+        - link "Introduction" [ref=e34] [cursor=pointer]:
+          - /url: /zara-nova
+          - img [ref=e35]
+          - generic [ref=e40]: Introduction
+        - paragraph [ref=e41]: Books
+        - generic [ref=e42]:
+          - button "Book 1 — Explorers Grade 4–6" [ref=e43]:
+            - img [ref=e44]
+            - generic [ref=e46]:
+              - paragraph [ref=e47]: Book 1 — Explorers
+              - paragraph [ref=e48]: Grade 4–6
+            - img [ref=e49]
+          - generic [ref=e51]:
+            - link "1" [ref=e52] [cursor=pointer]:
+              - /url: /zara-nova/book-1/ch01
+            - link "2" [ref=e53] [cursor=pointer]:
+              - /url: /zara-nova/book-1/ch02
+            - link "3" [ref=e54] [cursor=pointer]:
+              - /url: /zara-nova/book-1/ch03
+            - link "4" [ref=e55] [cursor=pointer]:
+              - /url: /zara-nova/book-1/ch04
+            - link "5" [ref=e56] [cursor=pointer]:
+              - /url: /zara-nova/book-1/ch05
+            - link "6" [ref=e57] [cursor=pointer]:
+              - /url: /zara-nova/book-1/ch06
+            - link "7" [ref=e58] [cursor=pointer]:
+              - /url: /zara-nova/book-1/ch07
+            - link "8" [ref=e59] [cursor=pointer]:
+              - /url: /zara-nova/book-1/ch08
+            - link "9" [ref=e60] [cursor=pointer]:
+              - /url: /zara-nova/book-1/ch09
+            - link "10" [ref=e61] [cursor=pointer]:
+              - /url: /zara-nova/book-1/ch10
+            - link "11" [ref=e62] [cursor=pointer]:
+              - /url: /zara-nova/book-1/ch11
+            - link "12" [ref=e63] [cursor=pointer]:
+              - /url: /zara-nova/book-1/ch12
+            - link "13" [ref=e64] [cursor=pointer]:
+              - /url: /zara-nova/book-1/ch13
+            - link "14" [ref=e65] [cursor=pointer]:
+              - /url: /zara-nova/book-1/ch14
+            - link "15" [ref=e66] [cursor=pointer]:
+              - /url: /zara-nova/book-1/ch15
+            - link "16" [ref=e67] [cursor=pointer]:
+              - /url: /zara-nova/book-1/ch16
+        - button "Book 2 — Builders Grade 7–8" [ref=e69]:
+          - img [ref=e70]
+          - generic [ref=e72]:
+            - paragraph [ref=e73]: Book 2 — Builders
+            - paragraph [ref=e74]: Grade 7–8
+          - img [ref=e75]
+        - button "Book 3 — Creators Grade 9–10" [ref=e78]:
+          - img [ref=e79]
+          - generic [ref=e81]:
+            - paragraph [ref=e82]: Book 3 — Creators
+            - paragraph [ref=e83]: Grade 9–10
+          - img [ref=e84]
+      - paragraph [ref=e87]: Grade 4–10 · Roman Urdu · 48 Chapters
+    - main [ref=e88]:
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - link "Zara NOVA" [ref=e91] [cursor=pointer]:
+            - /url: /zara-nova
+          - generic [ref=e92]: ›
+          - link "Book 1 — Explorers" [ref=e93] [cursor=pointer]:
+            - /url: /zara-nova/book-1
+          - generic [ref=e94]: ›
+          - generic [ref=e95]: Chapter 1
+        - generic [ref=e97]: Ch.01
+        - generic [ref=e98]:
+          - 'heading "Chapter 1: Internet aur Computer kaise kaam karte hain? 🌐" [level=1] [ref=e99]'
+          - paragraph [ref=e101]:
+            - strong [ref=e102]: Week 1 | Explorers Track
+          - separator [ref=e104]
+          - heading "📖 Story Scene" [level=2] [ref=e106]
+          - paragraph [ref=e108]: Zara subah school jaane se pehle apna laptop on karti hai. Screen blank hai.
+          - paragraph [ref=e110]: "\"NOVA, ye kya ho gaya?\" Zara ne ghabra ke kaha."
+          - paragraph [ref=e112]: "NOVA ka jawab aaya: \"Relax. Sirf restart hua. Lekin... kya tum jaanti ho andar kya ho raha hai?\""
+          - paragraph [ref=e114]: Zara ne socha — nahi, actually usne kabhi socha hi nahi tha.
+          - paragraph [ref=e116]: "\"Chalo main tujhe dikhati hoon,\" NOVA ne kaha. \"Imagine karo computer ek city hai...\""
+          - separator [ref=e118]
+          - 'heading "✨ Magic Spell #1 — Computer ki City" [level=2] [ref=e120]'
+          - paragraph [ref=e122]:
+            - strong [ref=e123]: "Computer kaise kaam karta hai — simple version:"
+          - code [ref=e126]: CPU (Brain) → sochta hai, calculate karta hai RAM (Memory) → temporarily yaad rakhta hai Storage (Hard Disk) → permanently save karta hai Screen → dikhata hai Keyboard/Mouse → tum baat karte ho
+          - paragraph [ref=e128]:
+            - strong [ref=e129]: Internet kya hai?
+          - paragraph [ref=e131]: Internet = computers ka ek bada network. Duniya bhar ke computers ek doosre se connected hain.
+          - paragraph [ref=e133]: "Jab tum koi website open karte ho:"
+          - code [ref=e135]: Tumhara computer → Request bhejta hai → Server tak ↑ ↓ Browser mein ← Website ki files wapas aati hain
+          - paragraph [ref=e137]:
+            - strong [ref=e138]: Kitni der lagti hai?
+          - paragraph [ref=e139]: 0.2 seconds se bhi kam — light ki speed par data travel karta hai! ⚡
+          - separator [ref=e141]
+          - heading "🔥 Try It Yourself" [level=2] [ref=e143]
+          - listitem [ref=e145]: Chrome open karo
+          - listitem [ref=e146]:
+            - text: "Address bar mein likho:"
+            - code [ref=e147]: google.com
+            - text: aur Enter dabaao
+          - listitem [ref=e148]:
+            - text: "Ab likho:"
+            - code [ref=e149]: view-source:https://www.google.com
+          - listitem [ref=e150]:
+            - text: Kya dikha? Ye wo
+            - strong [ref=e151]: code
+            - text: hai jo Google ki website banata hai!
+          - listitem [ref=e152]: Scroll karo — ye sab HTML, CSS, JavaScript hai!
+          - separator [ref=e154]
+          - heading "🤯 Wow Moment" [level=2] [ref=e156]
+          - blockquote [ref=e158]:
+            - text: Abhi is waqt, duniya mein
+            - strong [ref=e159]: 5 billion se zyada websites
+            - text: hain.
+          - blockquote [ref=e160]: Aur har website kisi ne code karke banai hai.
+          - blockquote [ref=e161]: Tum bhi banana seekhne wale ho! 🚀
+          - separator [ref=e163]
+          - heading "💡 Fun Tip" [level=2] [ref=e165]
+          - paragraph [ref=e167]:
+            - strong [ref=e168]: Internet ka matlab hai
+            - text: "\"Inter-connected Networks\" — yaani connected networks ka jaala. Ghar ka WiFi tumhe is jaale se jodta hai! Jab bhi tum YouTube dekhte ho, data Pakistan se America ke servers tak jaata hai aur wapas aata hai — milliseconds mein!"
+          - separator [ref=e170]
+          - heading "❓ Think About It" [level=2] [ref=e172]
+          - paragraph [ref=e174]: Agar internet ek din band ho jaye... tumhari zindagi mein kya kya change ho jaaye ga? 3 cheezein socho aur apne dost ko batao.
+        - link "Ch.2 →" [ref=e177] [cursor=pointer]:
+          - /url: /zara-nova/book-1/ch02
+  - button "Open Next.js Dev Tools" [ref=e183] [cursor=pointer]:
+    - img [ref=e184]

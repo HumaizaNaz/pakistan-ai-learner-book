@@ -1,0 +1,47 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - img [ref=e6]
+      - generic [ref=e9]: AI Learning Hub
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - button "اردو" [ref=e12]
+        - button "EN" [ref=e13]
+      - button "Switch to Light Mode" [ref=e14]:
+        - img [ref=e15]
+  - generic [ref=e21]:
+    - generic [ref=e22]: Pakistan · June 2026
+    - heading "AI Skills Seekho. Future Khud Banao." [level=1] [ref=e24]:
+      - text: AI Skills Seekho.
+      - text: Future Khud Banao.
+    - paragraph [ref=e25]: Bina coding ke 8 hafton mein professional AI tools master karo. ChatGPT, Canva AI, GitHub — sab real projects ke saath.
+    - generic [ref=e26]:
+      - link "Summer Camp 2-Month No-Code AI Course Ages 15–18 ke liye. LinkedIn, GitHub aur 10+ AI tools — pehle din se practical. Ages 15–18 8 Hafte No Coding Course Dekho" [ref=e27] [cursor=pointer]:
+        - /url: /summer-camp
+        - generic [ref=e28]:
+          - img [ref=e30]
+          - generic [ref=e34]: Summer Camp
+        - heading "2-Month No-Code AI Course" [level=2] [ref=e35]
+        - paragraph [ref=e36]: Ages 15–18 ke liye. LinkedIn, GitHub aur 10+ AI tools — pehle din se practical.
+        - generic [ref=e37]:
+          - generic [ref=e38]: Ages 15–18
+          - generic [ref=e39]: 8 Hafte
+          - generic [ref=e40]: No Coding
+        - generic [ref=e41]:
+          - text: Course Dekho
+          - img [ref=e42]
+      - link "Zara aur NOVA Zara aur NOVA ki AI Duniya Grade 4–10 ke liye Roman Urdu mein coding curriculum. HTML se AI Agents tak — 3 books, 48 chapters. Grade 4–10 48 Chapters Roman Urdu Books Dekho" [ref=e44] [cursor=pointer]:
+        - /url: /zara-nova
+        - generic [ref=e45]:
+          - img [ref=e47]
+          - generic [ref=e49]: Zara aur NOVA
+        - heading "Zara aur NOVA ki AI Duniya" [level=2] [ref=e50]
+        - paragraph [ref=e51]: Grade 4–10 ke liye Roman Urdu mein coding curriculum. HTML se AI Agents tak — 3 books, 48 chapters.
+        - generic [ref=e52]:
+          - generic [ref=e53]: Grade 4–10
+          - generic [ref=e54]: 48 Chapters
+          - generic [ref=e55]: Roman Urdu
+        - generic [ref=e56]:
+          - text: Books Dekho
+          - img [ref=e57]
+  - contentinfo [ref=e59]: Pakistan AI Education Initiative · 2026

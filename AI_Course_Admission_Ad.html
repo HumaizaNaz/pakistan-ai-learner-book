@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Course — Admissions Open</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#15171A;
+    --paper:#F6F3EC;
+    --paper-2:#EFEAE0;
+    --signal:#2F5C4B;
+    --signal-deep:#1E3F33;
+    --signal-soft:#DCE8E2;
+    --rust:#C1532B;
+    --line:#D8D2C4;
+    --muted:#5C5A52;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html,body{background:var(--paper); color:var(--ink); font-family:'Space Grotesk', sans-serif;}
+  body{
+    -webkit-font-smoothing:antialiased;
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(21,23,26,0.06) 1px, transparent 0);
+    background-size: 22px 22px;
+  }
+  .sheet{
+    max-width:880px;
+    margin:0 auto;
+    background:var(--paper);
+    border-left:1px solid var(--line);
+    border-right:1px solid var(--line);
+    min-height:100vh;
+  }
+  .display{font-family:'Fraunces', serif;}
+
+  /* ===== Top bar ===== */
+  .topbar{
+    display:flex; justify-content:space-between; align-items:center;
+    padding:22px 40px;
+    border-bottom:1px solid var(--line);
+    font-size:12px; letter-spacing:0.12em; text-transform:uppercase;
+    color:var(--muted);
+  }
+  .topbar strong{color:var(--ink); font-weight:600;}
+
+  /* ===== Hero ===== */
+  .hero{
+    padding:64px 40px 48px;
+    border-bottom:1px solid var(--line);
+    position:relative;
+  }
+  .eyebrow{
+    display:inline-flex; align-items:center; gap:8px;
+    font-size:12px; letter-spacing:0.14em; text-transform:uppercase;
+    color:var(--signal-deep);
+    background:var(--signal-soft);
+    border:1px solid var(--signal);
+    padding:6px 14px;
+    border-radius:100px;
+    margin-bottom:28px;
+  }
+  .eyebrow .dot{width:6px; height:6px; border-radius:50%; background:var(--rust);}
+
+  h1.title{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    font-size:clamp(40px, 6.2vw, 68px);
+    line-height:1.02;
+    letter-spacing:-0.01em;
+    color:var(--ink);
+    max-width:780px;
+  }
+  h1.title em{
+    font-style:italic;
+    font-weight:500;
+    color:var(--signal-deep);
+  }
+
+  .subhead{
+    margin-top:22px;
+    font-size:18px;
+    line-height:1.55;
+    color:var(--muted);
+    max-width:560px;
+  }
+
+  .hero-meta{
+    margin-top:40px;
+    display:flex;
+    gap:0;
+    border:1px solid var(--line);
+    background:var(--paper-2);
+  }
+  .hero-meta .cell{
+    flex:1;
+    padding:18px 22px;
+    border-right:1px solid var(--line);
+  }
+  .hero-meta .cell:last-child{border-right:none;}
+  .cell .k{font-size:11px; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted); margin-bottom:6px;}
+  .cell .v{font-size:17px; font-weight:600; color:var(--ink);}
+  .cell .v small{font-size:12px; font-weight:400; color:var(--muted); display:block; margin-top:2px;}
+
+  /* ===== Fee block ===== */
+  .fee-section{
+    padding:48px 40px;
+    border-bottom:1px solid var(--line);
+    display:grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap:40px;
+    align-items:center;
+  }
+  .fee-card{
+    background:var(--signal-deep);
+    color:var(--paper);
+    padding:36px 32px;
+    border-radius:4px;
+    position:relative;
+    overflow:hidden;
+  }
+  .fee-card .label{
+    font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:#AFC9BE;
+    margin-bottom:18px;
+  }
+  .fee-row{display:flex; align-items:baseline; gap:14px; flex-wrap:wrap;}
+  .fee-old{
+    font-family:'Fraunces', serif; font-size:26px; color:#7E9C90;
+    text-decoration:line-through; text-decoration-color:var(--rust); text-decoration-thickness:2px;
+  }
+  .fee-new{
+    font-family:'Fraunces', serif; font-weight:600; font-size:56px; color:#fff; line-height:1;
+  }
+  .fee-new sup{font-size:22px; font-weight:500; margin-right:2px;}
+  .fee-note{margin-top:18px; font-size:13px; color:#C9DBD2; line-height:1.6; max-width:340px;}
+  .fee-badge{
+    position:absolute; top:24px; right:-38px;
+    background:var(--rust); color:#fff;
+    font-size:11px; letter-spacing:0.1em; text-transform:uppercase; font-weight:600;
+    padding:7px 44px;
+    transform:rotate(35deg);
+  }
+
+  .fee-side h3{
+    font-family:'Fraunces', serif; font-weight:600; font-size:20px; margin-bottom:14px;
+  }
+  .fee-side p{font-size:14.5px; color:var(--muted); line-height:1.7;}
+  .fee-side .save{
+    margin-top:18px; display:flex; align-items:center; gap:10px;
+    font-size:13.5px; color:var(--signal-deep); font-weight:600;
+  }
+  .fee-side .save .pip{
+    width:8px; height:8px; background:var(--rust); border-radius:50%; flex-shrink:0;
+  }
+
+  /* ===== Outcomes strip ===== */
+  .outcomes{
+    padding:48px 40px;
+    border-bottom:1px solid var(--line);
+  }
+  .section-label{
+    font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:var(--muted);
+    margin-bottom:22px;
+    display:flex; align-items:center; gap:12px;
+  }
+  .section-label::after{content:''; flex:1; height:1px; background:var(--line);}
+
+  .outcome-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:1px;
+    background:var(--line);
+    border:1px solid var(--line);
+  }
+  .outcome-cell{
+    background:var(--paper);
+    padding:22px 20px;
+  }
+  .outcome-cell .num{
+    font-family:'Fraunces', serif; font-size:13px; color:var(--rust); font-weight:600; margin-bottom:10px;
+  }
+  .outcome-cell .t{font-size:15px; font-weight:600; margin-bottom:6px;}
+  .outcome-cell .d{font-size:13px; color:var(--muted); line-height:1.55;}
+
+  /* ===== Schedule ===== */
+  .schedule{
+    padding:48px 40px;
+    border-bottom:1px solid var(--line);
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:48px;
+  }
+  .days-row{display:flex; gap:10px; margin-top:18px;}
+  .day-chip{
+    width:52px; height:52px; border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    font-size:13px; font-weight:600;
+    border:1px solid var(--line);
+    color:var(--muted);
+  }
+  .day-chip.active{
+    background:var(--signal-deep); color:#fff; border-color:var(--signal-deep);
+  }
+  .time-line{
+    margin-top:24px;
+    display:flex; align-items:center; gap:16px;
+  }
+  .time-big{font-family:'Fraunces', serif; font-weight:600; font-size:30px;}
+  .time-tag{
+    font-size:11px; letter-spacing:0.1em; text-transform:uppercase;
+    background:var(--signal-soft); color:var(--signal-deep);
+    padding:5px 12px; border-radius:100px;
+  }
+
+  .schedule-right h3{font-family:'Fraunces', serif; font-size:20px; font-weight:600; margin-bottom:14px;}
+  .who-list{list-style:none;}
+  .who-list li{
+    display:flex; gap:12px; padding:10px 0;
+    border-bottom:1px solid var(--line);
+    font-size:14.5px; color:var(--muted);
+  }
+  .who-list li:last-child{border-bottom:none;}
+  .who-list li .mark{color:var(--signal-deep); font-weight:700; flex-shrink:0;}
+
+  /* ===== Closing CTA ===== */
+  .cta{
+    padding:56px 40px 64px;
+    text-align:center;
+  }
+  .cta h2{
+    font-family:'Fraunces', serif; font-weight:600;
+    font-size:clamp(28px,4vw,40px);
+    max-width:560px; margin:0 auto 16px;
+    line-height:1.15;
+  }
+  .cta p{color:var(--muted); font-size:15.5px; max-width:440px; margin:0 auto 30px; line-height:1.6;}
+  .cta-row{display:flex; gap:14px; justify-content:center; flex-wrap:wrap;}
+  .btn{
+    display:inline-flex; align-items:center; gap:8px;
+    padding:15px 30px;
+    font-family:'Space Grotesk', sans-serif;
+    font-size:14.5px; font-weight:600;
+    border-radius:100px;
+    text-decoration:none;
+    cursor:pointer;
+  }
+  .btn-primary{background:var(--signal-deep); color:#fff; border:1px solid var(--signal-deep);}
+  .btn-ghost{background:transparent; color:var(--ink); border:1px solid var(--line);}
+
+  .foot-note{
+    margin-top:34px; font-size:12.5px; color:var(--muted);
+    display:flex; justify-content:center; gap:6px; align-items:center;
+  }
+  .foot-note .pip{width:6px;height:6px;background:var(--rust);border-radius:50%;}
+
+  footer{
+    border-top:1px solid var(--line);
+    padding:22px 40px;
+    display:flex; justify-content:space-between; align-items:center;
+    font-size:11.5px; letter-spacing:0.06em; text-transform:uppercase; color:var(--muted);
+  }
+
+  @media (max-width:680px){
+    .hero{padding:48px 22px 36px;}
+    .topbar{padding:18px 22px;}
+    .hero-meta{flex-direction:column;}
+    .hero-meta .cell{border-right:none; border-bottom:1px solid var(--line);}
+    .hero-meta .cell:last-child{border-bottom:none;}
+    .fee-section{grid-template-columns:1fr; padding:36px 22px;}
+    .outcomes{padding:36px 22px;}
+    .outcome-grid{grid-template-columns:1fr;}
+    .schedule{grid-template-columns:1fr; padding:36px 22px; gap:32px;}
+    .cta{padding:44px 22px 52px;}
+    footer{flex-direction:column; gap:8px; text-align:center; padding:18px 22px;}
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <div class="topbar">
+    <span><strong>AI Foundations</strong> — Home Tuition</span>
+    <span>Karachi</span>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="eyebrow"><span class="dot"></span>Admissions open — limited seats</div>
+    <h1 class="title">Learn AI before<br>everyone else does.<br><em>No coding needed.</em></h1>
+    <p class="subhead">An 8-week, hands-on AI course for absolute beginners aged 15–18. ChatGPT, prompt engineering, content creation, and a live portfolio website — built by you, by week 8.</p>
+
+    <div class="hero-meta">
+      <div class="cell">
+        <div class="k">Duration</div>
+        <div class="v">8 weeks<small>4 modules, real projects</small></div>
+      </div>
+      <div class="cell">
+        <div class="k">Format</div>
+        <div class="v">In-person<small>Home tuition, Karachi</small></div>
+      </div>
+      <div class="cell">
+        <div class="k">Level</div>
+        <div class="v">Beginner<small>Zero coding required</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEE -->
+  <section class="fee-section">
+    <div class="fee-card">
+      <div class="fee-badge">Save Rs 500</div>
+      <div class="label">Course fee — full 8 weeks</div>
+      <div class="fee-row">
+        <span class="fee-old">Rs 2,000</span>
+        <span class="fee-new"><sup>Rs</sup>1,500</span>
+      </div>
+      <p class="fee-note">Early admission price. Covers all 8 weeks, bilingual notes (English + Urdu), and every tool used in class.</p>
+    </div>
+    <div class="fee-side">
+      <h3>One price. Everything included.</h3>
+      <p>No hidden charges for materials. Every student leaves with a CV, a GitHub profile, a LinkedIn presence, and a live portfolio website — built with their own hands across 8 weeks.</p>
+      <div class="save"><span class="pip"></span>Discount applies on early admission only</div>
+    </div>
+  </section>
+
+  <!-- OUTCOMES -->
+  <section class="outcomes">
+    <div class="section-label">What you'll walk away with</div>
+    <div class="outcome-grid">
+      <div class="outcome-cell">
+        <div class="num">01</div>
+        <div class="t">Live portfolio website</div>
+        <div class="d">Built using AI — no HTML or CSS memorised, just understood.</div>
+      </div>
+      <div class="outcome-cell">
+        <div class="num">02</div>
+        <div class="t">LinkedIn + GitHub</div>
+        <div class="d">A real, active professional presence most adults don't have.</div>
+      </div>
+      <div class="outcome-cell">
+        <div class="num">03</div>
+        <div class="t">A personal AI project</div>
+        <div class="d">Something built entirely by you, on a topic you actually care about.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCHEDULE -->
+  <section class="schedule">
+    <div>
+      <div class="section-label">Class days</div>
+      <div class="days-row">
+        <div class="day-chip">S</div>
+        <div class="day-chip active">M</div>
+        <div class="day-chip">T</div>
+        <div class="day-chip active">W</div>
+        <div class="day-chip">T</div>
+        <div class="day-chip active">F</div>
+        <div class="day-chip">S</div>
+      </div>
+      <div class="time-line">
+        <span class="time-big">8 – 10 PM</span>
+        <span class="time-tag">3 classes / week</span>
+      </div>
+    </div>
+    <div class="schedule-right">
+      <h3>Who this is for</h3>
+      <ul class="who-list">
+        <li><span class="mark">—</span>Students aged 15 to 18, complete beginners</li>
+        <li><span class="mark">—</span>No coding, no prior AI knowledge needed</li>
+        <li><span class="mark">—</span>Anyone curious about where AI is headed</li>
+        <li><span class="mark">—</span>Parents who want their child future-ready</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <h2>Seats fill fast. Class starts soon.</h2>
+    <p>Reserve your seat today at the early admission price of Rs 1,500.</p>
+    <div class="cta-row">
+      <a href="#" class="btn btn-primary">Reserve your seat</a>
+      <a href="#" class="btn btn-ghost">Ask a question</a>
+    </div>
+    <div class="foot-note"><span class="pip"></span>Limited seats per batch — first come, first taught</div>
+  </section>
+
+  <footer>
+    <span>AI Foundations Course</span>
+    <span>Karachi, Pakistan</span>
+  </footer>
+
+</div>
+</body>
+</html>

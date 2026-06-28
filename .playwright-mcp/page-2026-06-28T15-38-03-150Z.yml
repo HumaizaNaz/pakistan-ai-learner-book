@@ -1,0 +1,164 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link "AI Learning Hub" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+          - text: AI Learning Hub
+        - generic [ref=e9]:
+          - img [ref=e10]
+          - link "Zara aur NOVA" [ref=e12] [cursor=pointer]:
+            - /url: /zara-nova
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - button "اردو" [ref=e15]
+          - button "EN" [ref=e16]
+        - button "Switch to Light Mode" [ref=e17]:
+          - img [ref=e18]
+    - complementary [ref=e24]:
+      - generic [ref=e26]:
+        - img [ref=e28]
+        - generic [ref=e30]:
+          - paragraph [ref=e31]: Zara aur NOVA
+          - paragraph [ref=e32]: ki AI Duniya
+      - navigation [ref=e33]:
+        - link "Introduction" [ref=e34] [cursor=pointer]:
+          - /url: /zara-nova
+          - img [ref=e35]
+          - generic [ref=e40]: Introduction
+        - paragraph [ref=e41]: Books
+        - button "Book 1 — Explorers Grade 4–6" [ref=e43]:
+          - img [ref=e44]
+          - generic [ref=e46]:
+            - paragraph [ref=e47]: Book 1 — Explorers
+            - paragraph [ref=e48]: Grade 4–6
+          - img [ref=e49]
+        - button "Book 2 — Builders Grade 7–8" [ref=e52]:
+          - img [ref=e53]
+          - generic [ref=e55]:
+            - paragraph [ref=e56]: Book 2 — Builders
+            - paragraph [ref=e57]: Grade 7–8
+          - img [ref=e58]
+        - button "Book 3 — Creators Grade 9–10" [ref=e61]:
+          - img [ref=e62]
+          - generic [ref=e64]:
+            - paragraph [ref=e65]: Book 3 — Creators
+            - paragraph [ref=e66]: Grade 9–10
+          - img [ref=e67]
+      - paragraph [ref=e70]: Grade 4–10 · Roman Urdu · 48 Chapters
+    - main [ref=e71]:
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - generic [ref=e74]: Coding Curriculum — Grade 4–10
+          - heading "Zara aur NOVA ki AI Duniya" [level=1] [ref=e75]
+          - paragraph [ref=e76]: Zara aur NOVA ki kahani ke saath coding seekho — HTML se lekar AI Agents tak. 3 books, 48 chapters.
+        - generic [ref=e77]:
+          - generic [ref=e78]:
+            - paragraph [ref=e79]: "3"
+            - paragraph [ref=e80]: Kitabein
+          - generic [ref=e81]:
+            - paragraph [ref=e82]: "48"
+            - paragraph [ref=e83]: Chapters
+          - generic [ref=e84]:
+            - paragraph [ref=e85]: "16"
+            - paragraph [ref=e86]: Chapters/Book
+          - generic [ref=e87]:
+            - paragraph [ref=e88]: 4–10
+            - paragraph [ref=e89]: Grade
+        - generic [ref=e90]:
+          - paragraph [ref=e91]: Characters
+          - generic [ref=e92]:
+            - generic [ref=e93]:
+              - paragraph [ref=e94]: Zara
+              - paragraph [ref=e95]: Pakistani school girl Karachi se. Shuruat mein computers se darti hai — Book 3 tak full-stack AI developer ban jaati hai.
+            - generic [ref=e96]:
+              - paragraph [ref=e97]: NOVA
+              - paragraph [ref=e98]: Claude-powered AI assistant. Vague prompts pe galat jawab deti hai — yeh intentional hai! Seekhata hai ke precise prompts kyun zaroori hain.
+        - paragraph [ref=e99]: تین کتابیں
+        - generic [ref=e100]:
+          - generic [ref=e102]:
+            - generic [ref=e103]:
+              - generic [ref=e104]:
+                - img [ref=e106]
+                - generic [ref=e108]:
+                  - paragraph [ref=e109]: Book 1 · Grade 4–6Explorers
+                  - heading "Zara ki Pehli Spell" [level=3] [ref=e110]
+              - link "کھولیں" [ref=e111] [cursor=pointer]:
+                - /url: /zara-nova/book-1
+                - text: کھولیں
+                - img [ref=e112]
+            - generic [ref=e114]:
+              - generic [ref=e115]:
+                - paragraph [ref=e116]: Topics
+                - list [ref=e117]:
+                  - listitem [ref=e118]: HTML — webpage ka dhancha
+                  - listitem [ref=e120]: CSS — colors, fonts, design
+                  - listitem [ref=e122]: JavaScript — website ko zinda karo
+                  - listitem [ref=e124]: Prompt Engineering (CKFC formula)
+                  - listitem [ref=e126]: Claude.ai se content likhwao
+              - generic [ref=e128]:
+                - paragraph [ref=e129]: Final Project
+                - generic [ref=e130]: "\"Mera Sapna\" — Apna Pehla Webpage"
+          - generic [ref=e132]:
+            - generic [ref=e133]:
+              - generic [ref=e134]:
+                - img [ref=e136]
+                - generic [ref=e138]:
+                  - paragraph [ref=e139]: Book 2 · Grade 7–8Builders
+                  - heading "Zara ka AI Secret" [level=3] [ref=e140]
+              - link "کھولیں" [ref=e141] [cursor=pointer]:
+                - /url: /zara-nova/book-2
+                - text: کھولیں
+                - img [ref=e142]
+            - generic [ref=e144]:
+              - generic [ref=e145]:
+                - paragraph [ref=e146]: Topics
+                - list [ref=e147]:
+                  - listitem [ref=e148]: TypeScript — type-safe coding
+                  - listitem [ref=e150]: Next.js — professional framework
+                  - listitem [ref=e152]: Claude API — AI apne app mein
+                  - listitem [ref=e154]: System Prompts, CoT, Few-Shot
+                  - listitem [ref=e156]: Vercel pe deploy karo
+              - generic [ref=e158]:
+                - paragraph [ref=e159]: Final Project
+                - generic [ref=e160]: AI Chatbot — Vercel Pe Live
+          - generic [ref=e162]:
+            - generic [ref=e163]:
+              - generic [ref=e164]:
+                - img [ref=e166]
+                - generic [ref=e168]:
+                  - paragraph [ref=e169]: Book 3 · Grade 9–10Creators
+                  - heading "Zara aur Future" [level=3] [ref=e170]
+              - link "کھولیں" [ref=e171] [cursor=pointer]:
+                - /url: /zara-nova/book-3
+                - text: کھولیں
+                - img [ref=e172]
+            - generic [ref=e174]:
+              - generic [ref=e175]:
+                - paragraph [ref=e176]: Topics
+                - list [ref=e177]:
+                  - listitem [ref=e178]: Full-stack Next.js — Server Components
+                  - listitem [ref=e180]: TypeScript Advanced
+                  - listitem [ref=e182]: Streaming — real-time AI responses
+                  - listitem [ref=e184]: Tool Use — AI ko tools dena
+                  - listitem [ref=e186]: AI Agents — ReAct pattern
+              - generic [ref=e188]:
+                - paragraph [ref=e189]: Final Project
+                - generic [ref=e190]: AI-Powered Study Assistant
+        - generic [ref=e191]:
+          - paragraph [ref=e192]: Tech Stack Jo Seekhoge
+          - generic [ref=e193]:
+            - generic [ref=e194]: HTML
+            - generic [ref=e195]: CSS
+            - generic [ref=e196]: JavaScript
+            - generic [ref=e197]: TypeScript
+            - generic [ref=e198]: Next.js
+            - generic [ref=e199]: React
+            - generic [ref=e200]: Claude API
+            - generic [ref=e201]: Prompt Engineering
+            - generic [ref=e202]: AI Agents
+            - generic [ref=e203]: Vercel
+            - generic [ref=e204]: Git
+  - button "Open Next.js Dev Tools" [ref=e210] [cursor=pointer]:
+    - img [ref=e211]

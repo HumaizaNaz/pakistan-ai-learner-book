@@ -1,0 +1,46 @@
+:root {
+    --sidebar-bg: #1a1a2e;
+    --sidebar-fg: #e0e0ff;
+    --links: #6c63ff;
+}
+
+.story-scene {
+    background: linear-gradient(135deg, #667eea22, #764ba222);
+    border-left: 4px solid #6c63ff;
+    padding: 1rem 1.5rem;
+    border-radius: 0 8px 8px 0;
+    margin: 1.5rem 0;
+}
+
+.magic-spell {
+    background: linear-gradient(135deg, #f6d36522, #fda08522);
+    border-left: 4px solid #fdcb6e;
+    padding: 1rem 1.5rem;
+    border-radius: 0 8px 8px 0;
+    margin: 1.5rem 0;
+}
+
+.wow-moment {
+    background: #00b89422;
+    border: 2px dashed #00b894;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.fun-tip {
+    background: #fd79a822;
+    border-left: 4px solid #fd79a8;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0 8px 8px 0;
+    margin: 1rem 0;
+}
+
+.try-it {
+    background: #0984e322;
+    border-left: 4px solid #0984e3;
+    padding: 1rem 1.5rem;
+    border-radius: 0 8px 8px 0;
+    margin: 1.5rem 0;
+}

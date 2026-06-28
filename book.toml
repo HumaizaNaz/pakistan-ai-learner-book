@@ -1,0 +1,12 @@
+[book]
+title = "Zara aur NOVA ki AI Duniya"
+authors = ["Summer Camp AI"]
+language = "en"
+src = "src"
+
+[output.html]
+default-theme = "light"
+
+[output.html.fold]
+enable = true
+level = 1

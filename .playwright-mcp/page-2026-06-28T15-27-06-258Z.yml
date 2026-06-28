@@ -1,0 +1,143 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link "AI Learning Hub" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+          - text: AI Learning Hub
+        - generic [ref=e9]:
+          - img [ref=e10]
+          - link "Summer Camp" [ref=e12] [cursor=pointer]:
+            - /url: /summer-camp
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - button "اردو" [ref=e15]
+          - button "EN" [ref=e16]
+        - button "Switch to Light Mode" [ref=e17]:
+          - img [ref=e18]
+    - complementary [ref=e24]:
+      - generic [ref=e26]:
+        - img [ref=e28]
+        - generic [ref=e32]:
+          - paragraph [ref=e33]: Summer Camp
+          - paragraph [ref=e34]: 2-Month AI Course
+      - navigation [ref=e35]:
+        - paragraph [ref=e36]: Weeks
+        - link "Overview" [ref=e37] [cursor=pointer]:
+          - /url: /summer-camp
+          - img [ref=e38]
+          - generic [ref=e43]: Overview
+        - 'link "Week 1–2: AI ki Duniya" [ref=e44] [cursor=pointer]':
+          - /url: /summer-camp/week-1-2
+          - img [ref=e45]
+          - generic [ref=e48]: "Week 1–2: AI ki Duniya"
+        - 'link "Week 3–4: Prompt Mastery" [ref=e49] [cursor=pointer]':
+          - /url: /summer-camp/week-3-4
+          - img [ref=e50]
+          - generic [ref=e53]: "Week 3–4: Prompt Mastery"
+        - 'link "Week 5–6: AI Project" [ref=e54] [cursor=pointer]':
+          - /url: /summer-camp/week-5-6
+          - img [ref=e55]
+          - generic [ref=e58]: "Week 5–6: AI Project"
+        - 'link "Week 7–8: Portfolio" [ref=e59] [cursor=pointer]':
+          - /url: /summer-camp/week-7-8
+          - img [ref=e60]
+          - generic [ref=e63]: "Week 7–8: Portfolio"
+      - paragraph [ref=e65]: Ages 15–18 · No Coding · June 2026
+    - main [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - link "Home" [ref=e69] [cursor=pointer]:
+            - /url: /
+          - img [ref=e70]
+          - generic [ref=e72]: Summer Camp
+        - generic [ref=e73]:
+          - generic [ref=e74]: ابھی چل رہا ہے — June 2026
+          - heading "2-Month AI Summer Camp" [level=1] [ref=e76]
+          - paragraph [ref=e77]: 8 hafton mein AI skills seekho — bina kisi coding ke. Har hafte ek real project.
+          - generic [ref=e78]:
+            - generic [ref=e79]: 8 Weeks
+            - generic [ref=e80]: Ages 15–18
+            - generic [ref=e81]: No Coding
+            - generic [ref=e82]: 15+ AI Tools
+        - generic [ref=e84]:
+          - link "01 Week 1–2 ابھی AI ki Duniya AI kya hai? ChatGPT vs Claude vs Gemini Prompt Engineering LinkedIn + GitHub LinkedIn live + pehli post" [ref=e85] [cursor=pointer]:
+            - /url: /summer-camp/week-1-2
+            - generic [ref=e86]: "01"
+            - generic [ref=e87]:
+              - generic [ref=e88]:
+                - generic [ref=e89]: Week 1–2
+                - generic [ref=e90]: ابھی
+              - heading "AI ki Duniya" [level=3] [ref=e91]
+              - generic [ref=e92]:
+                - generic [ref=e93]: AI kya hai?
+                - generic [ref=e95]: ChatGPT vs Claude vs Gemini
+                - generic [ref=e97]: Prompt Engineering
+                - generic [ref=e99]: LinkedIn + GitHub
+              - generic [ref=e101]:
+                - img [ref=e102]
+                - text: LinkedIn live + pehli post
+            - img [ref=e105]
+          - link "02 Week 3–4 Prompt Mastery + Content Advanced Prompting Canva AI CapCut AI LinkedIn strategy Blog + image + video content package" [ref=e107] [cursor=pointer]:
+            - /url: /summer-camp/week-3-4
+            - generic [ref=e108]: "02"
+            - generic [ref=e109]:
+              - generic [ref=e111]: Week 3–4
+              - heading "Prompt Mastery + Content" [level=3] [ref=e112]
+              - generic [ref=e113]:
+                - generic [ref=e114]: Advanced Prompting
+                - generic [ref=e116]: Canva AI
+                - generic [ref=e118]: CapCut AI
+                - generic [ref=e120]: LinkedIn strategy
+              - generic [ref=e122]:
+                - img [ref=e123]
+                - text: Blog + image + video content package
+            - img [ref=e126]
+          - link "03 Week 5–6 Personal AI Project Apna project choose karo GitHub repository ChatGPT se README LinkedIn pe announce Live GitHub project" [ref=e128] [cursor=pointer]:
+            - /url: /summer-camp/week-5-6
+            - generic [ref=e129]: "03"
+            - generic [ref=e130]:
+              - generic [ref=e132]: Week 5–6
+              - heading "Personal AI Project" [level=3] [ref=e133]
+              - generic [ref=e134]:
+                - generic [ref=e135]: Apna project choose karo
+                - generic [ref=e137]: GitHub repository
+                - generic [ref=e139]: ChatGPT se README
+                - generic [ref=e141]: LinkedIn pe announce
+              - generic [ref=e143]:
+                - img [ref=e144]
+                - text: Live GitHub project
+            - img [ref=e147]
+          - link "04 Week 7–8 Portfolio Website HTML/CSS basics Bolt.new se banao GitHub Pages pe live Sab connect karo yourusername.github.io — live!" [ref=e149] [cursor=pointer]:
+            - /url: /summer-camp/week-7-8
+            - generic [ref=e150]: "04"
+            - generic [ref=e151]:
+              - generic [ref=e153]: Week 7–8
+              - heading "Portfolio Website" [level=3] [ref=e154]
+              - generic [ref=e155]:
+                - generic [ref=e156]: HTML/CSS basics
+                - generic [ref=e158]: Bolt.new se banao
+                - generic [ref=e160]: GitHub Pages pe live
+                - generic [ref=e162]: Sab connect karo
+              - generic [ref=e164]:
+                - img [ref=e165]
+                - text: yourusername.github.io — live!
+            - img [ref=e168]
+        - generic [ref=e170]:
+          - generic [ref=e171]:
+            - img [ref=e172]
+            - paragraph [ref=e174]: Tools Jo Seekhoge
+          - generic [ref=e175]:
+            - generic [ref=e176]: ChatGPT
+            - generic [ref=e177]: Claude
+            - generic [ref=e178]: Gemini
+            - generic [ref=e179]: Canva AI
+            - generic [ref=e180]: CapCut AI
+            - generic [ref=e181]: Bolt.new
+            - generic [ref=e182]: GitHub
+            - generic [ref=e183]: GitHub Pages
+            - generic [ref=e184]: Gamma.app
+            - generic [ref=e185]: LinkedIn
+  - button "Open Next.js Dev Tools" [ref=e191] [cursor=pointer]:
+    - img [ref=e192]
