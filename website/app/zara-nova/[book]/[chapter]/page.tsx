@@ -67,7 +67,7 @@ export default async function ChapterPage({
   const folder = bookFolderMap[book];
   if (!folder) notFound();
 
-  const srcDir = path.join(process.cwd(), "..", "src");
+  const srcDir = path.join(process.cwd(), "content");
   let content = "";
   let found = false;
 
