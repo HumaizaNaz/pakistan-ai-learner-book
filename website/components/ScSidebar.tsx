@@ -12,7 +12,12 @@ const navItems = [
       { href: "/summer-camp/week-1-2/guide", label: "Study Guide", labelUr: "Study Guide" },
     ],
   },
-  { href: "/summer-camp/week-3-4", label: "Week 3–4: Prompt Mastery", labelUr: "Week 3–4: Prompt Mastery", icon: BookMarked, sub: [] },
+  {
+    href: "/summer-camp/week-3-4", label: "Week 3–4: Prompt Mastery", labelUr: "Week 3–4: Prompt Mastery", icon: BookMarked,
+    sub: [
+      { href: "/summer-camp/week-3-4/guide", label: "Study Guide", labelUr: "Study Guide" },
+    ],
+  },
   { href: "/summer-camp/week-5-6", label: "Week 5–6: AI Project", labelUr: "Week 5–6: AI Project", icon: BookMarked, sub: [] },
   { href: "/summer-camp/week-7-8", label: "Week 7–8: Portfolio", labelUr: "Week 7–8: Portfolio", icon: BookMarked, sub: [] },
 ];
